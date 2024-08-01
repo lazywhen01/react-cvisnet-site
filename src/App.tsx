@@ -4,11 +4,11 @@ import Hero from "./components/sections/Hero"
 
 function App() {
   return (
-    <>
+    <div className="font-montserrat">
       <Navbar />
       <Hero />
       <About />
-    </>
+    </div>
   )
 }
 
